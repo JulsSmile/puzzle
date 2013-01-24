@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_rectangle_middle" >
+
+    <TextView
+        android:id="@+id/achievement_player"
+        style="@style/Text.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_alignParentTop="true"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/achievement_score_label"
+        style="@style/Text.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement_player"
+        android:layout_alignLeft="@id/achievement_player"
+        android:text="@string/score_label"
+        android:gravity="center" />
+    
+    <TextView
+        android:id="@+id/achievement_score"
+        style="@style/Text.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement_player"
+        android:layout_toRightOf="@id/achievement_score_label"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/achievement_rank"
+        style="@style/Text.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement_player"
+        android:layout_alignRight="@id/achievement_player"
+        android:text="@string/no_rank"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/achievement_rank_label"
+        style="@style/Text.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement_player"
+        android:layout_toLeftOf="@id/achievement_rank"
+        android:text="@string/rank_label"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/achievement_time_label"
+        style="@style/Text.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement_score_label"
+        android:layout_alignLeft="@id/achievement_player"
+        android:text="@string/time_label"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/achievement_time"
+        style="@style/Text.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement_score"
+        android:layout_toRightOf="@id/achievement_time_label"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/achievement_steps"
+        style="@style/Text.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement_rank"
+        android:layout_alignRight="@id/achievement_player"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/achievement_steps_label"
+        style="@style/Text.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement_rank_label"
+        android:layout_toLeftOf="@id/achievement_steps"
+        android:text="@string/steps_label"
+        android:gravity="center" />
+
+    <View
+        android:id="@+id/achievement_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginTop="3dip"
+        android:layout_marginBottom="3dip"
+        android:layout_below="@id/achievement_time"
+        android:layout_alignLeft="@id/achievement_player"
+        android:layout_alignRight="@id/achievement_player"
+        android:background="@color/holo_blue_light" />
+
+    <ImageView
+        android:id="@+id/achievement_star"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/achievement_divider"
+        android:layout_alignLeft="@id/achievement_player"
+        android:layout_alignRight="@id/achievement_player"
+        android:gravity="center"
+        android:src="@drawable/star" />
+
+</RelativeLayout>

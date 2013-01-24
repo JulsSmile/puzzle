@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="custom_title_bar_height">55dip</dimen>
+    <dimen name="custom_title_btn_width">70dip</dimen>
+    <dimen name="custom_title_btn_pading">9dip</dimen>
+    <dimen name="custom_title_bar_pading">3dip</dimen>
+    
+    <dimen name="content_margin">10dip</dimen>
+
+    <dimen name="game_item_image_size">90dip</dimen>
+    <dimen name="game_item_star_width">90dip</dimen>
+    <dimen name="game_item_star_height">20dip</dimen>
+
+    <dimen name="game_controller_horizontal_gap">10dip</dimen>
+    <dimen name="mini_preview_size">120dip</dimen>
+
+    <dimen name="column_score_width">60dip</dimen>
+    <dimen name="column_steps_width">60dip</dimen>
+    <dimen name="column_time_width">80dip</dimen>
+    <dimen name="column_rank_width">60dip</dimen>
+    <dimen name="column_player_width">100dip</dimen>
+    <dimen name="column_date_width">100dip</dimen>
+    <dimen name="column_star_width">110dip</dimen>
+
+    <dimen name="setting_item_height">70dip</dimen>
+    <dimen name="setting_item_primary_text_size">20dip</dimen>
+    <dimen name="setting_item_secondary_text_size">15dip</dimen>
+    <dimen name="setting_item_indicate_width">40dip</dimen>
+
+    <!-- Dialog title height -->
+    <dimen name="alert_dialog_title_height">64dip</dimen>
+    <!-- Dialog button bar height -->
+    <dimen name="alert_dialog_button_bar_height">48dip</dimen>
+
+    <dimen name="setting_nickname_padding">10dip</dimen>
+    <dimen name="setting_about_padding">10dip</dimen>
+
+    <dimen name="about_dialog_content_height">150dip</dimen>
+</resources>

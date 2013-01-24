@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="custom_title_bar_bg_color">#aadbe8</color>
+    <color name="game_panel_bg_color">#ff000000</color>
+
+    <color name="setting_item_bg_color_normal">#00000000</color>
+    <color name="setting_item_bg_color_press">#ff00aaaa</color>
+    <color name="setting_item_primary_text_color_normal">#ffffffff</color>
+    <color name="setting_item_primary_text_color_press">#ff000000</color>
+    <color name="setting_item_secondary_text_color_normal">#ff555555</color>
+    <color name="setting_item_secondary_text_color_press">#ffdddddd</color>
+
+    <color name="common_text_color">#ffeeeeee</color>
+    <color name="clickable_text_color">#ffeeeeee</color>
+    <color name="button_text_color">#ffeeeeee</color>
+    <color name="list_title_text_color">#ffeeeeee</color>
+    
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="divider_color">#ff000000</color>
+
+    <!-- Color of warning text, like illegal nickname, illegal feedback content -->
+    <color name="warning_color">#ffff0000</color>
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">拼图</string>
+    <string name="choose_level">选择等级</string>
+    <string name="choose_image">选择图片</string>
+    <string name="level">等级：</string>
+
+    <string name="level_default">拼图列表</string>
+    <string name="level_easy">三阶拼图</string>
+    <string name="level_normal">四阶拼图</string>
+    <string name="level_hard">五阶拼图</string>
+    <string name="level_custom">自定义拼图</string>
+    
+    <string name="start">开始</string>
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+    
+    <string name="tip">提示</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="exit">退出</string>
+    <string name="sure_to_exit">确定要退出程序？</string>
+    <string name="delete_all_msg">真的要删除这个拼图的所有数据吗？</string>
+    
+    <string name="action_restart">重新开始</string>
+    <string name="action_delete">删除</string>
+
+    <string name="sure_to_restart">游戏正在进行中，确定要重新开始？</string>
+    <string name="action_prompt_default_msg">确定要执行这个操作？</string>
+    <string name="action_prompt_delete_recents">真的要删除最近纪录吗？</string>
+    <string name="action_prompt_delete_bests">真的要删除最佳纪录吗？</string>
+    <string name="action_prompt_delete_ranks">真的要删除排行榜数据吗?</string>
+
+    <string name="empty_message_no_data">没有数据</string>
+    <string name="empty_message_no_recents">没有最近纪录</string>
+    <string name="empty_message_no_bests">没有最佳纪录</string>
+    <string name="empty_message_no_ranks">没有排行榜数据</string>
+
+    <string name="progress_message_loading">加载中…</string>
+    <string name="progress_message_loading_recents">正在加载最近纪录…</string>
+    <string name="progress_message_loading_bests">正在加载最佳纪录…</string>
+    <string name="progress_message_loading_ranks">正在加载排行榜数据…</string>
+
+    <string name="success_dialog_title">恭喜</string>
+    <string name="success_dialog_message">拼图成功</string>
+    <string name="success_dialog_play_again">再玩一次</string>
+    <string name="success_dialog_view_rank">查看全部玩家排行榜</string>
+
+    <string name="view_recents">查看最近成绩</string>
+    <string name="view_bests">查看最佳成绩</string>
+    <string name="view_ranks">查看所有玩家排行榜</string>
+    <string name="upload_achievement_and_view_ranks">上传成绩并查看排行榜</string>
+    <string name="clear_all_data">清除所有数据</string>
+
+    <!-- title text-->
+    <string name="select_game">选择游戏</string>
+    <string name="game">游戏</string>
+    <string name="historys">历史纪录</string>
+    <string name="recents">最近纪录</string>
+    <string name="bests">最佳纪录</string>
+    <string name="ranks">排行榜</string>
+    <string name="settings">设置</string>
+
+    <!-- list titles -->
+    <string name="rank_title">名次</string>
+    <string name="player_title">玩家</string>
+    <string name="time_title">耗时</string>
+    <string name="steps_title">步数</string>
+    <string name="score_title">总分</string>
+    <string name="star_title">星级</string>
+    <string name="date_title">时间</string>
+
+    <string name="rank_label">名次：</string>
+    <string name="player_label">玩家：</string>
+    <string name="time_label">耗时：</string>
+    <string name="steps_label">步数：</string>
+    <string name="score_label">总分：</string>
+    <string name="star_label">星级：</string>
+    <string name="no_rank">无</string>
+
+    <string name="refresh_ranks">重新加载排行榜数据</string>
+
+    <string name="error_network">网络传输错误，请稍后再试</string>
+    <string name="error_response">网络应答错误，请稍后再试</string>
+    <string name="error_server">服务器错误，请稍后再试</string>
+    <string name="error_json">数据解析错误，请稍后再试</string>
+    <string name="error_unknown">未知错误，请稍后再试</string>
+
+    <string name="not_connected_to_internet">无可用网络。</string>
+    <string name="open_mobile_networks_setting">移动网络设置</string>
+    <string name="open_wifi_setting">WIFI设置</string>
+
+    <string name="setting_skill">规则与技巧</string>
+    <string name="setting_nickname">修改昵称</string>
+    <string name="setting_feedback">反馈</string>
+    <string name="setting_update">检查更新</string>
+    <string name="setting_about">关于</string>
+
+    <string name="setting_description_skill">查看拼图规则，以及获取高分的技巧。</string>
+    <string name="setting_description_nickname">这个昵称在你上传成绩时会用到。</string>
+    <string name="setting_description_feedback">您的意见、想法，甚至抱怨，都可以跟我们说。</string>
+    <string name="setting_description_update">检查是否有最新版本。</string>
+    <string name="setting_description_about">关于这个应用程序的信息。</string>
+
+    <string name="nickname_title">昵称</string>
+    <string name="nickname_pls_input_nickname">请输入昵称</string>
+    <string name="nickname_illegal">只能包含0-9，a-z，A-Z和下划线“_”。</string>
+    <string name="nickname_empty">不能为空。</string>
+
+    <string name="update_unavailable">暂无更新</string>
+    <string name="update_checking_fail">检查失败</string>
+    <string name="update_title">更新</string>
+    <string name="update_msg">发现可用更新，大小为%s，现在更新？</string>
+    <string name="update_later">稍后更新</string>
+    <string name="update_updating">正在更新…</string>
+    <string name="update_downloading_description">安装文件保存在“Download”中</string>
+    <string name="download_fail">下载失败</string>
+
+    <string name="about_version_tab">版本</string>
+    <string name="about_update_info_tab">更新信息</string>
+
+    <string name="about_title">关于</string>
+    <string name="about_version_label">版本：</string>
+    <string name="about_version">1.0.2</string>
+    <string name="about_developer_label">开发者：</string>
+    <string name="about_developer">yongan.qiu@gmail.com</string>
+
+    <string name="feedback">反馈</string>
+    <string name="feedback_content_label">*您要反馈的内容：</string>
+    <string name="feedback_content_hint">您的建议、意见甚至抱怨，无论您想说什么，尽管告诉我们（必须填写）。</string>
+    <string name="feedback_contact_label">您的联系方式：</string>
+    <string name="feedback_contact_hint">QQ、MSN或者电子邮箱（方便我们找到您，可以不填）。</string>
+    <string name="feedback_type_label">反馈类型：</string>
+    <string name="feedback_no_effective_content">无有效内容，请重新输入</string>
+    <string name="feedback_clear_content_text">清除内容</string>
+    <string name="feedback_submit_text">提交</string>
+    <string name="feedback_submit_success">提交成功</string>
+    <string name="feedback_submit_failed">提交失败</string>
+
+    <string name="version">1.0.2</string>
+    <string name="update_info">1.0.2:\n\ \ 这是第一个版本\n#8212开发者</string>
+</resources>

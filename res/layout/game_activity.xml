@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_wood"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/content_margin"
+        android:background="@drawable/rounded_rectangle"
+        android:gravity="center">
+
+        <FrameLayout
+            android:id="@+id/game_window"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/game_window_bg" >
+
+            <ImageView
+                android:id="@+id/preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="invisible" />
+
+            <AbsoluteLayout
+                android:id="@+id/game_panel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="1px"
+                android:paddingTop="1px" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/control_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/game_window"
+            android:layout_alignLeft="@id/game_window"
+            android:layout_alignRight="@id/game_window"
+            android:layout_marginTop="@dimen/game_controller_horizontal_gap"
+            android:background="@drawable/game_controller_bg" >
+
+            <ImageView
+                android:id="@+id/mini_preview"
+                android:layout_width="@dimen/mini_preview_size"
+                android:layout_height="@dimen/mini_preview_size"
+                android:background="#ff00ff00" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <TextView
+                        style="@style/Text.Medium.Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/time_label" />
+
+                    <TextView
+                        style="@style/Text.Medium"
+                        android:id="@+id/time_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/divider_horizontal_bright" />
+
+                <LinearLayout
+                    android:id="@+id/steps"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center" >
+
+                    <TextView
+                        style="@style/Text.Medium.Title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@android:style/TextAppearance.Medium"
+                        android:text="@string/steps_label" />
+
+                    <TextView
+                        style="@style/Text.Medium"
+                        android:id="@+id/steps_value"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:background="@drawable/divider_horizontal_bright" />
+
+                <TextView
+                    style="@style/Text.Medium.Clickable"
+                    android:textColor="#ff1b4565"
+                    android:id="@+id/start"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_bg"
+                    android:gravity="center"
+                    android:text="@string/start" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

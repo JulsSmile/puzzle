@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wood" >
+
+    <TextView
+        style="@style/Text.Medium.CustomButton"
+        android:textColor="#ff1b4565"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip"
+        android:gravity="center"
+        android:id="@+id/refresh_ranks"
+        android:layout_alignParentBottom="true"
+        android:text="@string/refresh_ranks"
+        android:background="@drawable/custom_btn_bg" />
+
+    <FrameLayout
+        android:id="@+id/my_achievement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/refresh_ranks" >
+
+        <include layout="@layout/achievement_layout" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/my_achievement"
+        android:background="@drawable/rounded_rectangle_top" >
+
+        <include layout="@layout/list_or_empty" />
+    </FrameLayout>
+
+</RelativeLayout>

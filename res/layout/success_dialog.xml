@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            style="@style/Text.Medium.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_label" />
+
+        <TextView
+            android:id="@+id/score_value"
+            style="@style/Text.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/success_dialog_star"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/star" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            style="@style/Text.Medium.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time_label" />
+
+        <TextView
+            android:id="@+id/time_value"
+            style="@style/Text.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            style="@style/Text.Medium.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:text="@string/steps_label"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <TextView
+            android:id="@+id/steps_value"
+            style="@style/Text.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:background="@color/holo_blue_light" />
+
+    <TextView
+        android:id="@+id/success_dialog_view_recents"
+        style="@style/Text.Medium.CustomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_btn_bg"
+        android:gravity="center"
+        android:text="@string/view_recents" />
+
+    <TextView
+        android:id="@+id/success_dialog_view_bests"
+        style="@style/Text.Medium.CustomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_btn_bg"
+        android:gravity="center"
+        android:text="@string/view_bests" />
+
+    <TextView
+        android:id="@+id/success_dialog_view_ranks"
+        style="@style/Text.Medium.CustomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_btn_bg"
+        android:gravity="center"
+        android:text="@string/view_ranks" />
+
+</LinearLayout>

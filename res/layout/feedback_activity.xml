@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_wood"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/content_margin"
+        android:background="@drawable/rounded_rectangle"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/Text.Medium.Title"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/feedback_content_label" />
+
+        <EditText
+            android:id="@+id/feedback_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="4"
+            android:gravity="top"
+            android:hint="@string/feedback_content_hint"
+            android:maxLength="200" />
+
+        <TextView
+            style="@style/Text.Medium.Title"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/feedback_contact_label" />
+
+        <EditText
+            android:id="@+id/feedback_contact"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="2"
+            android:gravity="top"
+            android:hint="@string/feedback_contact_hint"
+            android:maxLength="50" />
+
+        <TextView
+            style="@style/Text.Medium.Title"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/feedback_type_label" />
+
+
+        <Spinner 
+            android:id="@+id/feedback_type"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:entries="@array/feedback_types" />
+
+        <LinearLayout
+            style="@style/Holo.ButtonBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/feedback_clear_content"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:minHeight="@dimen/alert_dialog_button_bar_height"
+                android:text="@string/feedback_clear_content_text"
+                android:enabled="false" />
+
+            <Button
+                android:id="@+id/feedback_submit"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:minHeight="@dimen/alert_dialog_button_bar_height"
+                android:text="@string/feedback_submit_text"
+                android:enabled="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

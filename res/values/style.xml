@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="file_selector_theme" parent="android:Theme">
+        <item name="android:windowTitleSize">25dp</item>
+    </style>
+
+    <style name="text_dark">
+        <item name="android:textAppearance">@android:color/primary_text_dark</item>
+    </style>
+
+    <style name="setting_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/setting_item_height</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Holo.ButtonBar" parent="android:style/ButtonBar">
+        <item name="android:paddingTop">0dip</item>
+        <item name="android:paddingLeft">0dip</item>
+        <item name="android:paddingRight">0dip</item>
+        <item name="android:paddingBottom">0dip</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textColor">@android:color/background_light</item>
+    </style>
+
+    <style name="Text.Small" parent="Text">
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+    </style>
+
+    <style name="Text.Medium" parent="Text">
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+    </style>
+
+    <style name="Text.Large" parent="Text">
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+
+    <style name="Text.Medium.Clickable" parent="Text.Medium">
+        <item name="android:textColor">#ff7a876a</item>
+    </style>
+
+    <style name="Text.Medium.CustomButton" parent="Text.Medium">
+        <item name="android:textColor">#ff7a876a</item>
+    </style>
+
+    <style name="Text.Medium.Title" parent="Text.Medium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffbec5e0</item>
+    </style>
+
+    <style name="Text.ActivityTitle" parent="Text.Large">
+        <item name="android:textColor">#ffc4cbe4</item>
+    </style>
+</resources>

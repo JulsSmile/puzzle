@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Puzzle</string>
+    <string name="choose_level">Choose level</string>
+    <string name="choose_image">Choose image</string>
+    <string name="level">Level:</string>
+
+    <string name="level_default">Puzzles</string>
+    <string name="level_easy">Easy puzzles</string>
+    <string name="level_normal">Normal puzzles</string>
+    <string name="level_hard">Hard puzzles</string>
+    <string name="level_custom">Custom puzzles</string>
+    
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="resume">Resume</string>
+    
+    <string name="tip">Notice</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="exit">Exit</string>
+    <string name="sure_to_exit">Sure to exit?</string>
+    <string name="delete_all_msg">Do you really want to clear all data of this puzzle?</string>
+
+    <string name="action_restart">Restart</string>
+    <string name="action_delete">Delete</string>
+
+    <string name="sure_to_restart">Game has been started, sure to restart?</string>
+    <string name="action_prompt_default_msg">Are you sure?</string>
+    <string name="action_prompt_delete_recents">Sure to delete recent histories?</string>
+    <string name="action_prompt_delete_bests">Sure to delete best histories?</string>
+    <string name="action_prompt_delete_ranks">Sure to delete ranks?</string>
+
+    <string name="empty_message_no_data">No data</string>
+    <string name="empty_message_no_recents">No recent histories</string>
+    <string name="empty_message_no_bests">No best histories</string>
+    <string name="empty_message_no_ranks">No ranks</string>
+
+    <string name="progress_message_loading">Loading…</string>
+    <string name="progress_message_loading_recents">Loading recent histories…</string>
+    <string name="progress_message_loading_bests">Loading best histories…</string>
+    <string name="progress_message_loading_ranks">Loading ranks…</string>
+
+    <string name="success_dialog_title">Congratulations</string>
+    <string name="success_dialog_message">Puzzle success.</string>
+    <string name="success_dialog_play_again">Play again</string>
+    <string name="success_dialog_view_rank">View rank</string>
+
+    <string name="view_recents">View recent histories</string>
+    <string name="view_bests">View best histories</string>
+    <string name="view_ranks">View ranks</string>
+    <string name="upload_achievement_and_view_ranks">Upload achievement and view ranks</string>
+    <string name="clear_all_data">Clear all data</string>
+
+    <!-- title text-->
+    <string name="select_game">Select game</string>
+    <string name="game">Game</string>
+    <string name="historys">Historys</string>
+    <string name="recents">Recents</string>
+    <string name="bests">Bests</string>
+    <string name="ranks">Ranks</string>
+    <string name="settings">Settings</string>
+
+    <!-- list titles -->
+    <string name="rank_title">Rank</string>
+    <string name="player_title">Name</string>
+    <string name="time_title">Time</string>
+    <string name="steps_title">Moves</string>
+    <string name="score_title">Score</string>
+    <string name="star_title">Star</string>
+    <string name="date_title">Date</string>
+
+    <string name="rank_label">Rank: </string>
+    <string name="player_label">Name: </string>
+    <string name="time_label">Time: </string>
+    <string name="steps_label">Moves: </string>
+    <string name="score_label">Score: </string>
+    <string name="star_label">Star: </string>
+    <string name="no_rank">None</string>
+
+    <string name="refresh_ranks">Whether reload from internet?</string>
+
+    <string name="error_network">Network transfer error, please try again later</string>
+    <string name="error_response">Network response error, please try again later</string>
+    <string name="error_server">Server error, please try again later</string>
+    <string name="error_json">Data parsing error, please try again later</string>
+    <string name="error_unknown">Unknown error, please try again later</string>
+
+    <string name="not_connected_to_internet">No network available.</string>
+    <string name="open_mobile_networks_setting">Mobile networks setting</string>
+    <string name="open_wifi_setting">WIFI setting</string>
+
+    <string name="setting_skill">Skills</string>
+    <string name="setting_nickname">Modify nickname</string>
+    <string name="setting_feedback">Feedback</string>
+    <string name="setting_update">Check update</string>
+    <string name="setting_about">About</string>
+
+    <string name="setting_description_skill">See the rules of puzzle, and how to play a high score.</string>
+    <string name="setting_description_nickname">This nickname is used when uploading your score.</string>
+    <string name="setting_description_feedback">Your suggestions, ideas, even complaints, just tell us.</string>
+    <string name="setting_description_update">Check whether there is a newer version of this application.</string>
+    <string name="setting_description_about">The information of this application.</string>
+
+    <string name="nickname_title">Nickname</string>
+    <string name="nickname_pls_input_nickname">Please input nickname</string>
+    <string name="nickname_illegal">Can only contains 0-9, a-z, A-Z and "_".</string>
+    <string name="nickname_empty">Can not be empty.</string>
+
+    <string name="update_unavailable">No available update</string>
+    <string name="update_checking_fail">Check failed</string>
+    <string name="update_title">Update</string>
+    <string name="update_msg">Available update found, sized %s, update now?</string>
+    <string name="update_later">Update later</string>
+    <string name="update_updating">Updating…</string>
+    <string name="update_downloading_description">Install file saved in "Download"</string>
+    <string name="download_fail">Download failed</string>
+
+    <string name="about_version_tab">Version</string>
+    <string name="about_update_info_tab">Update info</string>
+
+    <string name="about_title">About</string>
+    <string name="about_version_label">Version: </string>
+    <string name="about_version">1.0.2</string>
+    <string name="about_developer_label">Developer: </string>
+    <string name="about_developer">yongan.qiu@gmail.com</string>
+
+    <string name="feedback">Feedback</string>
+    <string name="feedback_content_label">*Content of feedback:</string>
+    <string name="feedback_content_hint">Your suggestions, ideas or complaints, whatever you want to say, just tell us(can not be empty).</string>
+    <string name="feedback_contact_label">The ways to contact you:</string>
+    <string name="feedback_contact_hint">Your MSN, QQ or email address(can leave it empty).</string>
+    <string name="feedback_type_label">Feedback type:</string>
+    <string name="feedback_no_effective_content">No effective content, please input again</string>
+    <string name="feedback_clear_content_text">Clear content</string>
+    <string name="feedback_submit_text">Submit</string>
+    <string name="feedback_submit_success">Submit success</string>
+    <string name="feedback_submit_failed">Submit failed</string>
+
+    <string name="version">1.0.2</string>
+    <string name="update_info">1.0.2:\n\ \ This is the first version.\n#8212developer</string>
+</resources>

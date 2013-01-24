@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="game_grid_context_menu_items">
+        <item>查看最近成绩</item>
+        <item>查看最佳成绩</item>
+        <item>查看所有玩家排行榜</item>
+        <item>清除所有数据</item>
+    </array>
+
+    <array name="feedback_types">
+        <item>默认类型</item>
+        <item>功能建议</item>
+        <item>界面建议</item>
+        <item>错误报告</item>
+        <item>机型适配</item>
+    </array>
+</resources>
